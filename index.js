@@ -80,6 +80,7 @@ function apply_changes(data, delete_tags, insert_tags, replace_tags) {
 	return result.join('\n');
 }
 
+module.exports.apply_changes;
 module.exports.edit = function editor(data, json) {
 	var delete_tags = {};
 	var insert_tags = {};
